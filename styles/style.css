@@ -1,50 +1,68 @@
 /*Without changing anything in the html, add the following styles using advanced selectors*/
 
-
 /* Give the header element a background color */
-
+header {
+  background-color: rgb(201, 76, 76);
+}
 
 /* Center everything in the header and footer */
-
+header,
+footer {
+  text-align: center;
+}
 
 /* All text to Helvetica */
-
+* {
+  font-family: Helvetica;
+}
 
 /* All links default color is gray*/
-
+a:link {
+  background-color: gray;
+}
 
 /* All links on hover color red*/
-
+a:hover {
+  background-color: red;
+}
 
 /* All Links visted color black*/
-
+a:visited {
+  background-color: black;
+}
 
 /* Footer disclaimer text to be .5 em*/
-
+#disclaimer {
+  font-size: 0.5em;
+  font-style: italic;
+}
 
 /* Remove bullet points from header navigation links */
-
+header ul {
+  list-style-type: none;
+}
 
 /* All Post's Comment Links Italicized, Orange and Remove the Underline */
-
+[href="#comments"] {
+  font-style: italic;
+  color: Orange;
+  text-decoration: none;
+}
 
 /* All Post's Comment Links Show Underline on Hover */
-
+[href="#comments"]:hover {
+  text-decoration: underline;
+}
 
 /* All Post's Author's Links Bold and Blue, with no Underline */
 
-
 /* Article Paragraph Text should have line height of 200% */
-
 
 /* The First Letter of each Article be 2em */
 
-
 /* The First Image in every Article should have Rounded Corners*/
 
-
 /* The First Top Cat Section (check the bottom of the HTML file) should have a Golden Background */
-
 
 /* The 2nd Top Cat Section Should have a Silver/gray Background */
 
@@ -53,16 +71,12 @@
 
 /* Every other Article's Post-Content Background Color to a Light Grey */
 
-
 /* All Top Kitten's Profile Photos Rounded */
-
 
 /*** BONUS ***/
 
 /* Add a cat emoji before a Cat's Name (in the heading content)*/
 
-
 /* Top-most Top Cat has a trophy emoji before name */
-
 
 /* Use Google Fonts to change h1 & h2 fonts to Roboto Slab */
